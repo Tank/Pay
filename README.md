@@ -1,9 +1,10 @@
-# Pay
+# Swift-Pay
 
 [![CI Status](https://img.shields.io/travis/frog2020@126.com/Pay.svg?style=flat)](https://travis-ci.org/frog2020@126.com/Pay)
 [![Version](https://img.shields.io/cocoapods/v/Pay.svg?style=flat)](https://cocoapods.org/pods/Pay)
 [![License](https://img.shields.io/cocoapods/l/Pay.svg?style=flat)](https://cocoapods.org/pods/Pay)
 [![Platform](https://img.shields.io/cocoapods/p/Pay.svg?style=flat)](https://cocoapods.org/pods/Pay)
+
 
 ## Example
 
@@ -17,7 +18,7 @@ Pay is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Pay'
+pod 'Swift-Pay'
 ```
 
 ## Author

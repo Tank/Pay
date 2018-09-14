@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Pay'
+  s.name             = 'Swift-Pay'
   s.version          = '0.1.0'
-  s.summary          = 'China pay with swift language.'
+  s.summary          = 'Wechat and Alipay for Swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Tank/Pay'
+  s.homepage         = 'https://github.com/Tank/Swift-Pay'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tank' => 'frog2020@126.com' }
-  s.source           = { :git => 'https://github.com/Tank/Pay.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Tank/Swift-Pay.git', :tag => s.version.to_s }
 
   s.requires_arc = true
   s.ios.deployment_target = '9.0'
