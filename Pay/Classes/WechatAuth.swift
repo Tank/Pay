@@ -23,9 +23,9 @@ extension PaySDK: WXApiDelegate {
         if type(of: resp) == SendAuthReq.self {
             let authResp = resp as! SendAuthResp
             if 0 == authResp.errCode && state == authResp.state {
-                authDelegate?.authRequestSuccess(code: authResp.code)
+                self.authDelegate?.authRequestSuccess(code: authResp.code)
             } else {
-                authDelegate?.authRequestError(error: authResp.errStr)
+                self.authDelegate?.authRequestError(error: authResp.errStr)
             }
         } else if (type(of: resp) == PayResp.self) {
             let payResp = resp as! PayResp

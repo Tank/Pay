@@ -9,14 +9,14 @@
 import UIKit
 import Pay
 
-protocol PayRequestDelegate {
+public protocol PayRequestDelegate {
     func wechatPaySign(data: NSDictionary) -> Void
     func alipayPaySign(str: String) -> Void
     func payRequestSuccess(data: Any) -> Void
     func payRequestError(error: String) -> Void
 }
 
-protocol AuthRequestDelegate {
+public protocol AuthRequestDelegate {
     func authRequestSuccess(code: String) -> Void
     func authRequestError(error: String) -> Void
 }
@@ -26,8 +26,8 @@ public class PaySDK: NSObject {
     public var signUrl: String? = nil
     public static var alipayAppid: String? = nil
 
-    var authDelegate: AuthRequestDelegate?
-    var payDelegate: PayRequestDelegate?
+    public var authDelegate: AuthRequestDelegate?
+    public var payDelegate: PayRequestDelegate?
     
     // - MARK: 微信相关设置
     var state = "8f9378894fe7d2b777ece002afb6b705"

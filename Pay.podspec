@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pay'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Wechat and Alipay for Swift'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
   
   s.resource_bundles = {
-     'Pay' => ['Pay/Assets/**/*.{png, bundle}']
+     'Pay' => ['Pay/Assets/**/*.png', 'Alipay/AlipaySDK.bundle']
   }
 
   s.public_header_files = 'Pay/Classes/*.h', 'Alipay/**/*.h', 'Wechat/**/*.h'
