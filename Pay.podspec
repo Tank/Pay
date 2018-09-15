@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Swift-Pay'
+  s.name             = 'Pay'
   s.version          = '0.0.1'
   s.summary          = 'Wechat and Alipay for Swift'
 
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Tank/Swift-Pay'
+  s.homepage         = 'https://github.com/Tank/Pay'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tank' => 'frog2020@126.com' }
-  s.source           = { :git => 'https://github.com/Tank/Swift-Pay.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Tank/Pay.git', :tag => s.version.to_s }
 
   s.requires_arc = true
   s.ios.deployment_target = '9.0'
